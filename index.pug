@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div
+    - var count = 0
+
+      table
+        form(method='PUT' action='/clicks/')
+          - for (var i = 0; i < 5; i++ )
+            tr
+            - for (var j = 0; j < 5; j++)
+              td
+                button(class='btn' formaction='/clicks/' + count)= board[count]
+              - count++
+    form(method='PUT' action='/restart/')
+      button Restart game
