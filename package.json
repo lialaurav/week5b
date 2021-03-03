@@ -10,7 +10,7 @@
     "morgan": "^1.9.1",
     "object-assign": "^4.1.1",
     "path": "^0.12.7",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {},
   "engine": {
